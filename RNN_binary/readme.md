@@ -2,9 +2,9 @@
 RNN cell的基本实现。
 
 ### 训练集
-输入数据X：在时间t，![](http://latex.codecogs.com/gif.latex?\\X_t)的值有50%的概率为1，50%的概率为0；  
-输出数据Y：在时间t，![](http://latex.codecogs.com/gif.latex?\\Y_t)的值有50%的概率为1，50%的概率为0，除此之外，还有两条规则：
-* 规则1:如果![](http://latex.codecogs.com/gif.latex?\\X_{t-3}) == 1，![](http://latex.codecogs.com/gif.latex?\\Y_t)为1的概率增加50%
+输入数据X：在时间t，![](http://latex.codecogs.com/gif.latex?\\ X_t)的值有50%的概率为1，50%的概率为0；  
+输出数据Y：在时间t，![](http://latex.codecogs.com/gif.latex?\\ Y_t)的值有50%的概率为1，50%的概率为0，除此之外，还有两条规则：
+* 规则1:如果![](http://latex.codecogs.com/gif.latex?\\$X_{t-3}) == 1，![](http://latex.codecogs.com/gif.latex?\\Y_t)为1的概率增加50%
 * 规则2:如果![](http://latex.codecogs.com/gif.latex?\\X_{t-8}) == 1，则![](http://latex.codecogs.com/gif.latex?\\Y_t)为1的概率减少25%， 如果上述两个条件同时满足，则![](http://latex.codecogs.com/gif.latex?\\Y_t)为1的概率为75%。
 
 
