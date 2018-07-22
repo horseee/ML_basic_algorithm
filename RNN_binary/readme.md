@@ -12,10 +12,10 @@ RNN cell的基本实现。
 初始未训练时的loss在0.66左右，训练完成后在0.45左右
 
 ### 训练结果
-设置每个cell中维数为4  
-![state4](state4.jpg)
+设置每个cell中维数为4    
+<img src = "state4.jpg" width="400" hegiht="300" />
 
-设置每个cell中维数为16 
-![state16](state16.jpg)
+设置每个cell中维数为16   
+<img src = "state16.jpg" width="400" hegiht="300" />
 
 
